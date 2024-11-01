@@ -6,12 +6,13 @@
   font-weight: bold;
 
 }
+
 #container {
   background-color: tan;
   padding: 0;
   margin: 20px auto;
   border: 5px solid #ccc;
-   box-shadow: 5px 5px 2px black;
+  box-shadow: 5px 5px 2px black;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
   font-size: 100%;
   width: 96%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 15px auto;
 }
 
 header {
@@ -72,10 +73,12 @@ nav ol li a:hover {
   color: rgb(72, 51, 23);
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
+
 #mainPicture {
   display: inline-block;
   margin: 0 auto;
 }
+
 #mainPicture img {
   width: 100%;
 }
@@ -118,11 +121,6 @@ footer {
   width: 40px;
 }
 
-#menu {
-  width: 100%;
-  background-color: orange;
-  border: 3px solid black;
-}
 
 #quickNavigation {
   width: 100%;
@@ -167,30 +165,32 @@ footer {
   border-bottom: 2px solid black;
 }
 
-#Fish{
+#Fish {
   display: flex;
 }
 
-#Fish img{
+#Fish img {
   height: auto;
   width: 12.5%;
   float: left;
   border-bottom: 2px solid black;
 }
 
-#menu1 h2{
- background-color: rgb(72, 51, 23);
+#menu1 h2,
+#menu1 h5 {
+  background-color: #c83349;
   color: whitesmoke;
 
 }
 
-#menu1{
-  background-color: rgb(192, 56, 56);
+#menu1 {
   width: 100%;
   text-align: center;
 }
 
-#menu1 table, #menu2 table, #restaurantMenu table{
+#menu1 table,
+#menu2 table,
+#restaurantMenu table {
   text-align: center;
   width: 100%;
   height: auto;
@@ -199,20 +199,20 @@ footer {
 }
 
 
-#menu1 table th{
+#menu1 table th {
   text-align: center;
   width: 25%;
-  background: linear-gradient(to right, #993300 0%, #cc3300 100%);
+  background-color: #e06377;
   border-right: 2px solid rgb(127, 81, 81);
 }
 
-#menu1 table td{
-  background-color: rgba(128, 128, 128, 0.553);
+#menu1 table td {
+  background-color: #eeac99;
   border-right: 2px solid rgb(127, 81, 81);
   border-top: 2px solid rgb(127, 81, 81);
 }
 
-#menu2 table th{
+#menu2 table th {
   text-align: center;
   width: 25%;
   background: linear-gradient(to right, #993300 0%, #cc3300 100%);
@@ -221,19 +221,21 @@ footer {
 
 
 
-#menu3{
+#menu3 {
   width: 100%;
   text-align: center;
 
 }
 
 
-#menu3 h2{
-  background-color: rgb(120, 127, 201);
+#menu3 h2,
+#menu3 h5 {
+  background-color: #667292;
   color: whitesmoke;
 }
 
-#menu3 table, #menu4 table{
+#menu3 table,
+#menu4 table {
   text-align: center;
   width: 100%;
   height: auto;
@@ -242,55 +244,58 @@ footer {
   background-color: rgb(145, 116, 79);
 }
 
-#menu3 table th{
+#menu3 table th {
   text-align: center;
   width: 25%;
-  background-color: rgb(49, 49, 155);
+  background-color: #8d9db6;
   border-right: 2px solid rgb(126, 126, 160);
 }
 
-#menu3 table td{
-  background-color: azure;
+#menu3 table td {
+  background-color: #bccad6;
   border-right: 2px solid rgb(126, 126, 160);
   border-top: 2px solid rgb(126, 126, 160);
 }
 
-#menu4{
+#menu4 {
   background-color: blueviolet;
   text-align: center;
   width: 100%;
 }
 
-#menu4 table th{
+#menu4 table th {
   background-color: rgb(49, 49, 155);
   width: 25%;
   text-align: center;
   border-right: 2px solid rgb(126, 126, 160);
 }
 
-#menu4 table td{
+#menu4 table td {
   background-color: azure;
   border-right: 2px solid rgb(126, 126, 160);
   border-top: 2px solid rgb(126, 126, 160);
 }
 
-#restaurantMenu, #restaurantMenu h2, #restaurantMenu h3{
+#restaurantMenu,
+#restaurantMenu h2,
+#restaurantMenu h3 {
   width: 100%;
 
 }
 
-#restaurantMenu h2{
+#restaurantMenu h2,
+#restaurantMenu h5 {
   background-color: #663300;
   color: whitesmoke;
 }
 
-#restaurantMenu h3{
-background-color:  #674d3c;
-font-weight: bold;
+#restaurantMenu h3 {
+  background-color: #674d3c;
+  font-weight: bold;
 }
 
-#restaurantMenu table th{
-  background-color:  #a2836e;
+#restaurantMenu table th {
+  background-color: #a2836e;
   text-align: center;
   border-right: 2px solid rgb(126, 126, 160);
   font-weight: bold;
@@ -298,18 +303,105 @@ font-weight: bold;
 
 }
 
-#restaurantMenu h3{
+#restaurantMenu h3 {
   color: whitesmoke;
   text-align: center;
   font-weight: bold;
 
 }
 
-#restaurantMenu table td{
+#restaurantMenu table td {
   background-color: #d9ad7c;
   border-right: 2px solid rgb(126, 126, 160);
   border-top: 2px solid rgb(126, 126, 160);
   font-size: 1em;
   font-weight: bold;
 
+}
+
+#locations {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  font-size: 1em;
+}
+
+.gallery {
+  width: 100%;
+}
+
+.gallery img {
+  width: 100%;
+  height: 20em;
+  border-right: 2px solid burlywood;
+  object-fit: cover;
+}
+
+.gallery .desc {
+  background-color: rgb(145, 116, 79);
+  color: whitesmoke;
+  width: 100%;
+  font-size: 1em;
+  border-right: 2px solid black;
+}
+
+
+#order {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  font-size: 1em;
+}
+
+
+
+.carriers {
+  width: 100%;
+}
+
+.carriers img {
+  height: 80px;
+  width: 80px;
+  margin: 15px auto;
+
+}
+
+.carriers .orderInfo {
+  background-color: rgb(145, 116, 79);
+  color: whitesmoke;
+  width: 100%;
+  font-size: 1em;
+  border-right: 2px solid black;
+}
+
+#formContainer {
+  padding: 0;
+  margin: 0 auto;
+  border: 2px solid black;
+  width: 100%;
+  background-color: #a2836e;
+  border: 3px solid black;
+}
+
+#formContainer h2 {
+  background-color: #a2836e;
+
+  color: whitesmoke;
+}
+
+.questions {
+  background-color: #674d3c;
+  font-weight: bold;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 5px;
+  width: 100%;
+  color: whitesmoke;
+}
+
+.carriers {
+  background-color: rgb(181, 135, 75);
 }
