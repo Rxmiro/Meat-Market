@@ -3,7 +3,7 @@
   margin: 0 auto;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: bold !important;
 
 }
 
@@ -21,7 +21,7 @@ body {
   font-size: 100%;
   width: 96%;
   max-width: 1200px;
-  margin: 15px auto;
+  margin: 15px auto !important; 
 }
 
 header {
@@ -104,21 +104,25 @@ aside h2 {
 }
 
 footer {
-  background-color: rgb(72, 51, 23);
+  background-color: rgb(72, 51, 23) !important;
   text-align: center;
   font-size: 1em;
-  width: 100%;
   max-width: 1200px;
-}
-
-footer {
   color: rgb(171, 165, 165);
   border-top: 3px solid black;
 }
 
+footer h3, footer h5{
+  font-size: 1em;
+}
+
+#social{
+  background-color: rgb(72, 51, 23);
+border: 0;
+}
 #social img {
-  height: 40px;
-  width: 40px;
+  height: 40px !important;
+  width: 40px !important;
 }
 
 
@@ -346,7 +350,6 @@ footer {
   border-right: 2px solid black;
 }
 
-
 #order {
   width: 100%;
   padding: 0;
@@ -391,12 +394,13 @@ footer {
   color: whitesmoke;
 }
 
+
 .questions {
   background-color: #674d3c;
   font-weight: bold;
   text-align: center;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1em !important;
   padding: 5px;
   width: 100%;
   color: whitesmoke;
@@ -404,4 +408,45 @@ footer {
 
 .carriers {
   background-color: rgb(181, 135, 75);
+}
+
+.accordion{
+  font-size: 1em;
+  padding-top: 15px;
+  padding: 10px;
+}
+
+.accordion-button{
+  background-color: rgb(166, 128, 82) !important;
+  font-weight: bold;
+  color: white;
+}
+
+.accordion-header{
+  font-weight: bold;
+  color: white;
+}
+
+.card-body { 
+  background-color: rgb(72, 51, 23); 
+}
+.card-text {
+  color: #c0c0c0; 
+}
+
+.text-muted {
+  color: #c0c0c0; 
+}
+
+.card-body .card-title{
+  color: whitesmoke;
+}
+
+.card-text .text-muted{
+  color: whitesmoke !important;
+}
+
+.accordion-button{
+  font-size: 1em !important;
+  color: whitesmoke !important;
 }
